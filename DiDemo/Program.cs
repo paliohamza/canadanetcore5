@@ -18,8 +18,7 @@ namespace DiDemo
                 TodoDbSeeder.Seed(services);
             }
             host.Run();
-        }
-   
+        } 
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
