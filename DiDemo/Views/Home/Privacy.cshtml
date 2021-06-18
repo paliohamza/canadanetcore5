@@ -1,0 +1,9 @@
+﻿@using DiDemo.Services;
+@inject IVisiteursCompteur counterview
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h1>total visiteurs: @ViewBag.vc</h1>
+<h1>total view di: @counterview.getCounter()</h1>
