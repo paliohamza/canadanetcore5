@@ -11,7 +11,7 @@ namespace DiDemo
         public static void Main(string[] args)
         {
             IHostBuilder builder = CreateHostBuilder(args);
-            IHost host=builder.Build();
+           // IHost host=builder.Build();
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
